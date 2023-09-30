@@ -79,6 +79,7 @@ else if($forwarduid == true)
 {flush();
 file_put_contents($command,2);
 file_put_contents($type,'user');
+for ($i = 1; $i <= 5; $i++)
 file_put_contents($user,$forwarduid);
 file_put_contents($name,$forwarduname);
 send($chat,'کاربر اول ثبت شد✅ پیام کاربر دوم را برای مقایسه فوروارد کنید');
