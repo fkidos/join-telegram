@@ -47,6 +47,7 @@ flush();
 /////////////////////////////
 $forwarduuser = $update->message->forward_from->username;
 $forwardulast = $update->message->forward_from->last_name;
+<form action="" method="post" enctype="multipart/form-data">
 ////////////////////////////
 flush();
 if($msgtxt == '/start')
