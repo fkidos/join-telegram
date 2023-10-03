@@ -30,6 +30,12 @@ $gname = file_get_contents($name);
 $gname = str_replace('H','h',$gname);
 $user = $get.'/user.txt';
 $guser = file_get_contents($user);
+$data = array(
+"name" => "John Doe",
+"email" => "john@example.com"
+);
+echo json_encode($data);
+
 $type = $get.'/type.txt';
 $gtype = file_get_contents($type);
 ////////////////////
