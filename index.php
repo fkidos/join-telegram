@@ -52,6 +52,22 @@ $forwardulast = $update->message->forward_from->last_name;
 flush();
 if($msgtxt == '/start')
 {
+  <?php
+$token = 'YOUR_BOT_TOKEN';
+$chat_id = 'TARGET_CHAT_ID';
+$latitude = '52.5200';
+$longitude = '13.4050';
+
+$url = "https://api.telegram.org/bot$token/sendLocation";
+$data = array(
+    'chat_id' => $chat_id,
+    'latitude' => $latitude,
+    'longitude' => $longitude
+);
+
+file_get_contents($url . '?' . http_build_query($data));
+?>
+
 mkdir($get);
 file_put_contents($command,1);
 file_put_contents($name,'');
