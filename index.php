@@ -25,8 +25,6 @@ flush();
 $get = 'data/usert/'.$chat;
 $command = $get.'/command.txt';
 $gcommand = file_get_contents($command);
-$name = $get.'/name.txt';
-$gname = file_get_contents($name);
 $gname = str_replae('H','h',$gname);
 $user = $get.'/user.txt';
 $guser = file_get_contents($user);
