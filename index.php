@@ -17,8 +17,6 @@ $msg_text = isset($update->message->text)?$update->message->text:'';
 ///////////////////////
 $forwardcname = $forwardc->title;
 $forwarduname = $forwardu->first_name;
-$forwardcid = $forwardc->id;
-$forwarduid = $forwardu->id;
 ///////////////////////
 $msgtxt = $update->message->text;
 flush();
