@@ -21,7 +21,6 @@ $forwarduname = $forwardu->first_name;
 $msgtxt = $update->message->text;
 flush();
 $get = 'data/usert/'.$chat;
-$command = $get.'/command.txt';
 $gcommand = file_get_contents($command);
 $gname = str_replae('H','h',$gname);
 $user = $get.'/user.txt';
