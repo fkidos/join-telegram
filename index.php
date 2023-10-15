@@ -29,7 +29,6 @@ $data = array(
 "name" => "John Doe",
 "email" => "john@example.com"
 );
-echo json_encode($data);
 
 $type = $get.'/type.txt';
 $gtype = file_get_contents($type);
@@ -137,7 +136,6 @@ send($chat,"کانال $forwardcname قبل از کانال $gname ساخته ش
 else
 {flush();
 send($chat,'فوروارد قبلی را نیز از همین چت فوروارد کردید این فوروارد را از چت دیگری ارسال کنید⚠');
-}
 }
 else
 {
