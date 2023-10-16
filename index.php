@@ -19,7 +19,6 @@ $forwardcname = $forwardc->title;
 $forwarduname = $forwardu->first_name;
 ///////////////////////
 $msgtxt = $update->message->text;
-flush();
 $get = 'data/usert/'.$chat;
 $gcommand = file_get_contents($command);
 $gname = str_replae('H','h',$gname);
