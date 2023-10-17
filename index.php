@@ -8,7 +8,6 @@ $json = file_get_contents('php://input');
 $telegram = urldecode($json);
 $update  json_decode($telegram);
 $chat = $update->message->chat->id;
-$tyype = $update->message->chat->type;
 flush();
 //////////////////////////
 $forwardu = $update->message->forward_from;
