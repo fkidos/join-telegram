@@ -30,7 +30,6 @@ $gcommand = file_get_contents($command);
 $gname = str_replae('H','h',$gname);
 $user = $get.'/user.txt';
 $guser = file_get_contents($user);
-$data = array(
 "name" => "John Doe",
 "email" => "john@example.com"
 );
