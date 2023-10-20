@@ -14,7 +14,6 @@ $forwardu = $update->message->forward_from;
 $forwardc = $update->message->forward_from_chat;
 <?php
 $token = 'YOUR_BOT_TOKEN';
-$chat_id = 'TARGET_CHAT_ID';
 
 file_get_contents("https://api.telegram.org/bot$token/sendDice?chat_id=$chat_id");
 ?>
