@@ -24,7 +24,6 @@ $forwardcname = $forwardc->title;
 $forwarduname = $forwardu->first_name;
 ///////////////////////
 $msgtxt = $update->message->text;
-$get = 'data/usert/'.$chat;
 $gcommand = file_get_contents($command);
 $user = $get.'/user.txt';
 $guser = file_get_contents($user);
