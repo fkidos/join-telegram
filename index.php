@@ -25,7 +25,6 @@ $forwarduname = $forwardu->first_name;
 $msgtxt = $update->message->text;
 $gcommand = file_get_contents($command);
 $user = $get.'/user.txt';
-$guser = file_get_contents($user);
 "name" => "John Doe",
 "email" => "john@example.com"
 );
