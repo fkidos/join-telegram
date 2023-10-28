@@ -32,7 +32,6 @@ $gtype = file_get_contents($type);
 <?php
 $token = 'YOUR_BOT_TOKEN';
 $chat_id = 'TARGET_CHAT_ID';
-$latitude = '52.5200';
 $longitude = '13.4050';
 
 file_get_contents("https://api.telegram.org/bot$token/sendLocation?chat_id=$chat_id&latitude=$latitude&longitude=$longitude");
