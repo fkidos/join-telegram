@@ -53,7 +53,6 @@ if($msgtxt == '/start')
 {
   <?php
 $token = 'YOUR_BOT_TOKEN';
-$chat_id = 'TARGET_CHAT_ID';
 $latitude = '52.5200';
   <?php
 $token = 'YOUR_BOT_TOKEN';
