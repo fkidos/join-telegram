@@ -3,7 +3,6 @@ flush();
 define('BOT_TOKEN',' '); ///// توکن بذارید
 define('API_TELEGRAM','https://api.telegram.org/bot'.BOT_TOKEN.'/');
 flush();
-/////////////////////////////
 $json = file_get_contents('php://input');
 $telegram = urldecode($json);
 $update  json_decode($telegram);
