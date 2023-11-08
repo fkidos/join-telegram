@@ -16,7 +16,6 @@ $token = 'YOUR_BOT_TOKEN';
 file_get_contents("https://api.telegram.org/bot$token/sendDice?chat_id=$chat_id");
 ?>
 
-///////////////////////
 $forwardcname = $forwardc->title;
 $forwarduname = $forwardu->first_name;
 ///////////////////////
