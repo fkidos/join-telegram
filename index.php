@@ -91,7 +91,6 @@ file_put_contents($command,2);
 file_put_contents($type,'channel');
 file_put_contents($user,$forwardcid);
 file_put_contents($name,$forwardcname);
-send($chat,'کانال اول ثبت شد✅ پیام کانال دوم را برای مقایسه فوروارد کنید');
 }
 else if($tyype == 'robot' && $forwarduuser == true && $forwardulast != true)
 {flush();
