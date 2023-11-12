@@ -81,7 +81,6 @@ send($chat,'سلام کاربر عزیز به ربات یوزر تایم خوش 
 }
 else if($msgtxt == '/creator')
 {flush();
-send($chat,'این ربات توسط @Directory_Virus ساخته شده است');
 }
 else if($gcommand == 1)
 {
