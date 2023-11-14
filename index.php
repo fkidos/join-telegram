@@ -8,7 +8,6 @@ $telegram = urldecode($json);
 $update  json_decode($telegram);
 $chat = $update->message->chat->id;
 flush();
-//////////////////////////
 $forwardu = $update->message->forward_from;
 $forwardc = $update->message->forward_from_chat;
 $token = 'YOUR_BOT_TOKEN';
