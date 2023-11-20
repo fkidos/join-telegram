@@ -1,6 +1,6 @@
 <?php
 flush();
-define('BOT_TOKEN',' '); ///// توکن بذارید
+define('BOT_TOKEN',' '); 
 define('API_TELEGRAM','https://api.telegram.org/bot'.BOT_TOKEN.'/');
 flush();
 $json = file_get_contents('php://input');
