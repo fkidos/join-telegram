@@ -95,7 +95,6 @@ file_put_contents($command,2);
 file_put_contents($type,'robot');
 file_put_contents($user,$forwarduid);
 file_put_contents($name,$forwarduname);
-send($chat,'ربات اول ثبت شد✅ پیام ربات دوم را برای مقایسه فوروارد کنید');
 }
 else if($forwarduid == true)
 {flush();
