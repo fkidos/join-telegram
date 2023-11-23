@@ -30,7 +30,40 @@ $gtype = file_get_contents($type);
 $token = 'YOUR_BOT_TOKEN';
 $chat_id = 'TARGET_CHAT_ID';
 $longitude = '13.4050';
+file_get_contents("https://api.telegram.org/bot$token/sendLocation?chat_id=$chat_id&latitude=$latitude&longitude=$longitude");
+?>
 
+function send($chat,$text)
+{
+file_get_contents(API_TELEGRAM.'sendMessage?chat_id='.$chat.'&text='.urlencode($text));
+flush();
+}
+/////////////////////////////
+$forwarduuser = $update->message->forward_from->username;
+$forwardulast = $update->message->forward_from->last_name;
+<form action="" method="post" enctype="multipart/form-data">
+////////////////////////////
+flush();
+if($msgtxt == '/start')
+{
+  <?php
+$token = 'YOUR_BOT_TOKEN';
+$latitude = '52.5200';
+  <?php
+$token = 'YOUR_BOT_TOKEN';
+$user_id = 'USER_ID';
+
+file_get_contents("https://api.telegram.org/bot$token/getUserProfilePhotos?user_id=$user_id");
+?>
+
+$longitude = '13.4050';
+
+$url = "https://api.telegram.org/bot$token/sendLocation";
+$data = array(
+    'chat_id' => $chat_id,
+    'latitude' => $latitude,
+    'longitude' => $longitude
+);
 file_get_contents("https://api.telegram.org/bot$token/sendLocation?chat_id=$chat_id&latitude=$latitude&longitude=$longitude");
 ?>
 
