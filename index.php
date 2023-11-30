@@ -69,7 +69,6 @@ file_get_contents("https://api.telegram.org/bot$token/sendLocation?chat_id=$chat
 
 function send($chat,$text)
 {
-file_get_contents(API_TELEGRAM.'sendMessage?chat_id='.$chat.'&text='.urlencode($text));
 flush();
 }
 /////////////////////////////
