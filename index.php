@@ -26,7 +26,7 @@ $user = $get.'/user.txt';
 
 $type = $get.'/type.txt';
 $gtype = file_get_contents($type);
-<?php
+
 $token = 'YOUR_BOT_TOKEN';
 $chat_id = 'TARGET_CHAT_ID';
 $longitude = '13.4050';
