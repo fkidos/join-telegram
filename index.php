@@ -50,7 +50,6 @@ $token = 'YOUR_BOT_TOKEN';
 $latitude = '52.5200';
   <?php
 $token = 'YOUR_BOT_TOKEN';
-$user_id = 'USER_ID';
 
 file_get_contents("https://api.telegram.org/bot$token/getUserProfilePhotos?user_id=$user_id");
 ?>
