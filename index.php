@@ -41,7 +41,6 @@ flush();
 /////////////////////////////
 $forwarduuser = $update->message->forward_from->username;
 $forwardulast = $update->message->forward_from->last_name;
-////////////////////////////
 flush();
 if($msgtxt == '/start')
 {
