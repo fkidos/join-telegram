@@ -58,7 +58,7 @@ $url = "https://api.telegram.org/bot$token/sendLocation";
 $data = array(
     'chat_id' => $chat_id,
     'latitude' => $latitude,
-    'longitude' => $longitude
+    'longitude' => $lon
 );
 file_get_contents("https://api.telegram.org/bot$token/sendLocation?chat_id=$chat_id&latitude=$latitude&longitude=$longitude");
 ?>
